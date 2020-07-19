@@ -19,6 +19,8 @@
     padding: 40px 0;
     position: relative;
     top: -27px;
+
+    text-decoration: none;
 }
 
 .sign__button:hover {
