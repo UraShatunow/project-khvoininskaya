@@ -18,6 +18,8 @@
     margin-top: 40px;
     padding: 35px 0;
     transition: 0.15s;
+
+    text-decoration: none;
 }
 
 .examination__button:hover {
