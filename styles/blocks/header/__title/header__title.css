@@ -1,0 +1,31 @@
+.header__title {
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    /* or 275% */
+
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+
+    /* Gray 6 */
+
+    color: #F2F2F2;
+
+    margin-left: 75px;
+}
+
+@media screen and (max-width: 1023px) {
+    .header__title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .header__title {
+        font-size: 12px;
+        line-height: 22px;
+        margin-left: 15px;
+    }
+}

@@ -1,0 +1,10 @@
+.tables__description-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.tables__description-item:last-child {
+    padding-right: 0;
+}

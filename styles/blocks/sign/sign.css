@@ -1,0 +1,18 @@
+@import url('__button/sign__button.css');
+
+.sign {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../../img/intro__bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 1023px) {
+    .sign {
+        width: 100%;
+    }
+}

@@ -1,0 +1,21 @@
+@import url('_grey/tables__square_grey.css');
+@import url('_lightgrey/tables__square_lightgrey.css');
+@import url('_red/tables__square_red.css');
+@import url('_grey-1/tables__square_grey-1.css');
+@import url('_grey-2/tables__square_grey-2.css');
+@import url('_grey-3/tables__square_grey-3.css');
+@import url('_red-2/tables__square_red-2.css');
+
+.tables__square {
+    display: flex;
+    align-self: flex-start;
+    justify-content: flex-start;
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+    margin-left: 20px;
+}
+
+.tables__square:first-child {
+    margin-left: 0;
+}

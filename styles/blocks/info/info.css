@@ -1,0 +1,19 @@
+@import url('__heading/info__heading.css');
+@import url('__inner/info__inner.css');
+@import url('__paragraph/info__paragraph.css');
+
+.info {
+    width: 50%;
+    background: #F36956;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 1;
+}
+
+@media screen and (max-width: 1439px) {
+    .info {
+        width: 100%;
+        order: 2;
+    }
+}

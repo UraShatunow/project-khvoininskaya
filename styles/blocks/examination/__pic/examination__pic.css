@@ -1,0 +1,20 @@
+.examination__pic {
+    height: 356px;
+    width: 100%;
+    background-image: url('../../../../img/examination__pic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 1300px) {
+    .examination__pic {
+        height: 220px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .examination__pic {
+        display: none;
+    }
+}

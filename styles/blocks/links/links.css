@@ -1,0 +1,28 @@
+@import url('__title/links__title.css');
+@import url('__item/links__item.css');
+
+.links {
+    width: 50%;
+    background: #F2F2F2;
+    padding: 96px 8% 96px 10%;
+    order: 2;
+}
+
+@media screen and (max-width: 1300px) {
+    .links {
+        padding: 70px 5% 70px 4%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .links {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .links {
+        order: 1;
+        padding: 45px 20px;
+    }
+}

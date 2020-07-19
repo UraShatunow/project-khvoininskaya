@@ -1,0 +1,7 @@
+.tables__item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 48%;
+    margin-bottom: 16px;
+}

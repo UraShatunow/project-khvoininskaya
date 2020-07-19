@@ -1,0 +1,18 @@
+.form__input {
+    border: 1px solid #F36956;
+    padding: 20px 25px;
+    outline: none;
+    width: 100%;
+    background-color: #F2F2F2;
+}
+
+.form__input:focus {
+    background-color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .form__input {
+        padding: 15px;
+        border: 2px solid #F36956;
+    }
+}

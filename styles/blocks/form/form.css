@@ -1,0 +1,13 @@
+@import url('__inner/form__inner.css');
+@import url('__fieldset/form__fieldset.css');
+@import url('__input/form__input.css');
+@import url('__label/form__label.css');
+@import url('__submit/form__submit.css');
+@import url('__textarea/form__textarea.css');
+@import url('__comment/form__comment.css');
+@import url('__title/form__title.css');
+
+.form {
+    width: 100%;
+    background-color: #F2F2F2;
+}

@@ -1,0 +1,40 @@
+.info__heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 64px;
+    /* or 116% */
+
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+
+    /* Gray 6 */
+
+    color: #F2F2F2;
+    margin-top: 80px;
+}
+
+.info__heading:first-child {
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 1439px) {
+    .info__heading {
+        font-size: 36px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .info__heading {
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    .info__heading {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}

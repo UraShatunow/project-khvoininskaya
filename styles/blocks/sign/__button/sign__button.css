@@ -1,0 +1,57 @@
+.sign__button {
+    width: 62%;
+    background: #F36956;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 12px;
+    /* or 60% */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* Gray 6 */
+
+    color: #F2F2F2; 
+    transition: 0.15s;
+    padding: 40px 0;
+    position: relative;
+    top: -27px;
+}
+
+.sign__button:hover {
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 1439px) {
+    .sign__button {
+        top: -65px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .sign__button {
+        top: 0;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .sign__button {
+        margin: 150px 0;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .sign__button {
+        margin: 120px 0;
+        width: 90%;
+        padding: 30px 0;
+        font-size: 14px;
+        line-height: 12px;
+    }
+}
+
+

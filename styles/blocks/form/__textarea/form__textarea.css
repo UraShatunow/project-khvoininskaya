@@ -1,0 +1,19 @@
+.form__textarea {
+        border: 1px solid #F36956;
+        padding: 20px;
+        outline: none;
+        width: 100%;
+        background-color: #F2F2F2;
+        height: 350px;
+}
+
+.form__textarea:focus {
+    background-color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .form__textarea {
+        padding: 15px;
+        border: 2px solid #F36956;
+    }
+}

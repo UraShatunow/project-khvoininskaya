@@ -1,0 +1,5 @@
+@media screen and (max-width: 550px) {
+    .header__search-pic {
+        transform: scale(0.7);
+    }
+}

@@ -1,0 +1,15 @@
+.corruption__icon {
+    position: absolute;
+    left: -60px;
+    transition: 0.15s;
+}
+
+.corruption__icon:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1300px) {
+    .corruption__icon {
+        display: none;
+    }
+}

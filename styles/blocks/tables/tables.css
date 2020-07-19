@@ -1,0 +1,28 @@
+@import url('__inner/tables__inner.css');
+@import url('__table/tables__table.css');
+@import url('__title/tables__title.css');
+@import url('__subtitle/tables__subtitle.css');
+@import url('__description/tables__description.css');
+@import url('__square/tables__square.css');
+@import url('__paragraph/tables__paragraph.css');
+@import url('__description-item/tables__description-item.css');
+@import url('__item/tables__item.css');
+@import url('__info/tables__info.css');
+@import url('__text/tables__text.css');
+@import url('__transparent/tables__transparent.css');
+
+.tables {
+    width: 50%;
+    background: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 2;
+}
+
+@media screen and (max-width: 1439px) {
+    .tables {
+        width: 100%;
+        order: 1;
+    }
+}

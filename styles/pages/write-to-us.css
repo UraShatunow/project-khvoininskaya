@@ -1,0 +1,17 @@
+@import url('../vendor/normalize.css');
+@import url('../blocks/page/page.css');
+@import url('../blocks/section/section.css');
+@import url('../blocks/header_alt/header_alt.css');
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/content/content.css');
+@import url('../blocks/form/form.css');
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;   
+}

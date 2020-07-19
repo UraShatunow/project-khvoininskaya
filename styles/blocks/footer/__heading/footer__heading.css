@@ -1,0 +1,31 @@
+.footer__heading {
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    /* or 110% */
+
+    letter-spacing: 0.05em;
+
+    /* Gray 6 */
+
+    color: #F2F2F2;
+    text-decoration: none;
+    margin-bottom: 50px;
+    transition: 0.15s;
+}
+
+.footer__heading:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1025px) {
+    .footer__heading {
+        margin-bottom: 0;
+    }
+
+    .footer__heading:hover {
+        opacity: 1;
+    }
+}

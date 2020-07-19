@@ -1,0 +1,11 @@
+.tables__paragraph {
+    font-size: 10px;
+    line-height: 11px;
+    /* or 110% */
+
+    letter-spacing: 0.015em;
+
+    /* red */
+
+    color: #F36956;
+}

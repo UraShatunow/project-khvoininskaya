@@ -1,0 +1,28 @@
+@import url('__left-col/header__left-col.css');
+@import url('__right-col/header__right-col.css');
+@import url('__menu/header__menu.css');
+@import url('__search/header__search.css');
+@import url('__switch/header__switch.css');
+@import url('__title/header__title.css');
+@import url('__menu-pic/header__menu-pic.css');
+@import url('__search-pic/header__search-pic.css');
+
+.header {
+    height: 132px;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+}
+
+@media screen and (max-width: 1023px) {
+    .header {
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .header {
+        height: 67px;
+    }
+}

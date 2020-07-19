@@ -1,0 +1,49 @@
+.corruption__link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 64px;
+    /* or 116% */
+
+    letter-spacing: 0.015em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+
+    /* Gray 6 */
+
+    color: #F2F2F2;
+    margin: 250px 0;
+    transition: 0.15s;
+}
+
+.corruption__link:hover {
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 1300px) {
+    .corruption__link {
+        margin: 200px 0;
+        font-size: 36px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .corruption__link {
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .corruption__link {
+        margin: 150px 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .corruption__link {
+        font-size: 40px;
+        line-height: 64px;
+    }
+}

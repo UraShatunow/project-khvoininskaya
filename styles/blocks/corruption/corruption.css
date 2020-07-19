@@ -1,0 +1,32 @@
+@import url('__title/corruption__title.css');
+@import url('__icon/corruption__icon.css');
+@import url('__link/corruption__link.css');
+@import url('__info/corruption__info.css');
+
+.corruption {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background: #F36956;
+    padding: 96px 8% 96px 8%;
+    order: 1;
+}
+
+@media screen and (max-width: 1300px) {
+    .corruption {
+        padding: 70px 5% 70px 4%;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .corruption {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .corruption {
+        order: 2;
+        padding: 45px 20px;
+    }
+}

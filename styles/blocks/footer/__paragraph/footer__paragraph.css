@@ -1,0 +1,26 @@
+.footer__paragraph {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 67% */
+
+
+    /* Gray 6 */
+
+    color: #F2F2F2;
+    margin-top: 40px;
+    text-decoration: none;
+    transition: 0.15s;
+}
+
+.footer__paragraph:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1025px) {
+    .footer__paragraph {
+        display: none;
+    }
+}

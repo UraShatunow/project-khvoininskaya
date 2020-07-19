@@ -1,0 +1,17 @@
+.form__label {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 64px;
+    /* or 188% */
+
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #F36956;
+}
+
+@media screen and (max-width: 767px) {
+    .form__label {
+        font-size: 20px;
+        line-height: 50px;
+    }
+}

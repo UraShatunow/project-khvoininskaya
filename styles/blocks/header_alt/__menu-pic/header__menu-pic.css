@@ -1,0 +1,6 @@
+
+@media screen and (max-width: 550px) {
+    .header__menu-pic {
+        transform: scale(0.7);
+    }
+}

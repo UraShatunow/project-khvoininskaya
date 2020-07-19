@@ -1,0 +1,24 @@
+.header__right-col {
+    width: 50%;
+    background: #F36956;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 1300px) {
+    .header__right-col {
+        width: 132px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .header__right-col {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .header__right-col {
+        width: 67px;
+    }
+}

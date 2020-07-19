@@ -1,0 +1,19 @@
+@import url('__title/examination__title.css');
+@import url('__inner/examination__inner.css');
+@import url('__pic/examination__pic.css');
+@import url('__button/examination__button.css');
+@import url('__paragraph/examination__paragraph.css');
+
+.examination {
+    width: 50%;
+    background: #F36956;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 1023px) {
+    .examination {
+        width: 100%;
+    }
+}

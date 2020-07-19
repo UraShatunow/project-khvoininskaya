@@ -1,0 +1,28 @@
+.info__paragraph {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    /* or 110% */
+
+    letter-spacing: 0.015em;
+
+    /* Gray 6 */
+
+    color: #F2F2F2;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1439px) {
+    .info__paragraph {
+        font-size: 18px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .info__paragraph {
+        font-size: 12px;
+        line-height: 14px;
+    }
+}

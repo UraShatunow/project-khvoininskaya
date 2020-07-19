@@ -1,0 +1,17 @@
+@import url('__title/text__title.css');
+@import url('__inner/text__inner.css');
+@import url('__paragraph/text__paragraph.css');
+
+.text {
+    width: 50%;
+    background: #F36956;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 1023px) {
+    .text {
+        width: 100%;
+    }
+}

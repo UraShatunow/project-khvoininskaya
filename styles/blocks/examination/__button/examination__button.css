@@ -1,0 +1,33 @@
+.examination__button {
+    width: 100%;
+    background: #F2F2F2;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 12px;
+    /* or 60% */
+
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    /* red */
+
+    color: #F36956;
+    margin-top: 40px;
+    padding: 35px 0;
+    transition: 0.15s;
+}
+
+.examination__button:hover {
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 550px) {
+    .examination__button {
+        padding: 25px 0;
+        font-size: 14px;
+        line-height: 12px;
+    }
+}

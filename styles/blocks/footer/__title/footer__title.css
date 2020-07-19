@@ -1,0 +1,25 @@
+.footer__title {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 93px;
+    /* or 275% */
+
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+
+    /* Gray 6 */
+
+    color: #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
+    }
+
+    @media screen and (max-width: 550px) {
+        .footer__title {
+            font-size: 20px;
+            line-height: 22px;
+            /* or 110% */
+
+            letter-spacing: 0.04em;
+            padding-bottom: 30px;
+        }
+    }

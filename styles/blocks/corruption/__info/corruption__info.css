@@ -1,0 +1,29 @@
+.corruption__info {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 36px;
+    /* or 106% */
+
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+
+    /* Gray 6 */
+
+    color: #F2F2F2;
+    position: relative;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1025px) {
+    .corruption__info {
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .corruption__info {
+        font-size: 12px;
+        line-height: 36px;
+    }
+}
